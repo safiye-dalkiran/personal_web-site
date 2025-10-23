@@ -1,11 +1,11 @@
 
 import { useContext } from "react";
 import { LanguageContext } from "../../context/LanguageContext";
-import { ThemeContext } from "../../context/ThemeContext";
+
 
 function LanguageToggle() {
   const { language, toggleLanguage } = useContext(LanguageContext);
-  const { darkMode } = useContext(ThemeContext);
+  
 
   return (
     <div

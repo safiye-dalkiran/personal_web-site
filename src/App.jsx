@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
-import ModelSwitch from './components/modeSwitch/modelSwitch'
+import ModelSwitch from './components/modelSwitch/ModelSwitch'
 import Skills from "./components/skills/Skills"
 import About from "./components/About/About"
 import Projects from "./components/projects/Projects"
