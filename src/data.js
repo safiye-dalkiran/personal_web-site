@@ -1,27 +1,32 @@
-
+import gitHub from "/src/assets/github.svg";
+import linkedin from "/src/assets/LinkedIn.svg";
+import profile from "/src/assets/profilePhoto.jpg"
+import proje1 from "/src/assets/pizzaOrderForm.png"
+import proje2 from "/src/assets/pizzaOrderApp.png"
+import proje3 from "/src/assets/eCommerceSite.png"
 const data = {
     tr: {
         headerTitles: {
             skillHeader: "Yetenekler",
             profileHeader: "Profil",
             projectHeader: "Projeler",
-            hireMe:"Birlikte Çalışalım"
+            hireMe: "Birlikte Çalışalım"
         },
         heroSection: {
             name: "Safiye Dalkıran",
             text1: "Yaratıcı ve Çözüm Odaklı Geliştirici",
             description:
                 "Merhaba! Ben Safiye. Kod ve tasarımı bir araya getirerek, kullanıcıya unutulmaz ve akıcı deneyimler sunmayı seviyorum. Web’i sadece göstermek yerine hissettirmek için çalışırım; detaycı ve deneyim odaklı yaklaşımım her projede önceliğimdir.",
-            profileImage: "/src/assets/profilePhoto.jpg",
+            profileImage:  profile ,
             socials: [
                 {
-                    logo: "/src/assets/github.svg",
+                    logo:  gitHub ,
                     altText: "GitHub",
                     text: "GitHub",
                     link: "https://github.com/safiye-dalkiran",
                 },
                 {
-                    logo: "/src/assets/LinkedIn.svg",
+                    logo:  linkedin ,
                     altText: "LinkedIn",
                     text: "LinkedIn",
                     link: "https://www.linkedin.com/in/safiyedalkiran",
@@ -67,7 +72,7 @@ const data = {
         projects: [
             {
                 id: 1,
-                img: "/src/assets/pizzaOrderForm.png",
+                img:  proje1 ,
                 name: "Statik Pizza Sitesi",
                 description: "Tamamen HTML ve CSS ile geliştirilmiş, görsel olarak çekici bir statik web sitesi. Farklı pizzaları resimler ve açıklamalar ile sergiler, düzen, tipografi ve duyarlı tasarım üzerinde odaklanır. Proje, temiz ve semantik kod yazımını ön plana çıkarırken, farklı cihazlarda sorunsuz bir kullanıcı deneyimi sunmayı hedefler.",
                 link: "https://github.com/safiye-dalkiran/pizza-order-form",
@@ -75,7 +80,7 @@ const data = {
             },
             {
                 id: 2,
-                img: "/src/assets/pizzaOrderApp.png",
+                img:  proje2 ,
                 name: "Dinamik Pizza Sitesi",
                 description: "React ve JavaScript kullanılarak oluşturulmuş etkileşimli bir pizza sipariş uygulaması. Kullanıcıların pizzaları seçmesine, boyut ve malzeme tercihlerini belirlemesine ve siparişlerini kolayca ve hızlı bir şekilde oluşturmasına olanak tanır. Bu proje, dinamik kullanıcı etkileşimleri ve sorunsuz bir kullanıcı deneyimi sunmayı amaçlar ve kullanıcı memnuniyetini ön planda tutar.",
                 link: "https://github.com/safiye-dalkiran/pizza-order-app",
@@ -83,7 +88,7 @@ const data = {
             },
             {
                 id: 3,
-                img: "/src/assets/eCommerceSite.png",
+                img:  proje3 ,
                 name: "Çevrimiçi Alışveriş Sitesi",
                 description: "Kullanıcıların ürünleri inceleyebileceği, detaylarını görebileceği ve satın alabileceği bir e-ticaret platformu. Erkek ve kadın giyim, takı ve elektronik gibi kategoriler içerir ve ürünler net görseller ve açıklamalar ile sunulur. Proje, responsive tasarım, akıcı gezinme ve farklı cihazlarda sorunsuz bir kullanıcı deneyimi sunmaya odaklanır.",
                 link: "https://github.com/safiye-dalkiran/pizza-order-app",
@@ -106,11 +111,11 @@ const data = {
     },
 
     en: {
-         headerTitles: {
+        headerTitles: {
             skillHeader: "Skills",
             profileHeader: "Profile",
             projectHeader: "Projects",
-            hireMe:"Here me"
+            hireMe: "Here me"
         },
         heroSection: {
             name: "Safiye Dalkıran",
@@ -121,13 +126,13 @@ const data = {
             socials: [
 
                 {
-                    logo: "/src/assets/github.svg",
+                    logo:  gitHub ,
                     altText: "GitHub",
                     text: "GitHub",
                     link: "https://github.com/safiye-dalkiran",
                 },
                 {
-                    logo: "/src/assets/LinkedIn.svg",
+                    logo:  linkedin ,
                     altText: "LinkedIn",
                     text: "LinkedIn",
                     link: "https://www.linkedin.com/in/safiyedalkiran",
@@ -171,7 +176,7 @@ const data = {
 
             {
                 id: 1,
-                img: "/src/assets/pizzaOrderForm.png",
+                img:  proje1 ,
                 name: "Static Pizza Site",
                 description: "A visually appealing static website built entirely with HTML and CSS. It showcases a variety of pizzas with images and descriptions, focusing on layout, typography, and responsive design. The project emphasizes clean and semantic code while providing a smooth user experience across different devices.",
                 link: "https://github.com/safiye-dalkiran/pizza-order-form",
@@ -179,7 +184,7 @@ const data = {
             },
             {
                 id: 2,
-                img: "/src/assets/pizzaOrderApp.png",
+                img:  proje2 ,
                 name: "Dynamic Pizza Site",
                 description: "An interactive pizza ordering app built with React and JavaScript. It allows users to select pizzas, choose size and toppings, and easily and quickly create their orders. This project aims to provide dynamic user interactions and a smooth user experience while prioritizing user satisfaction.",
                 link: "https://github.com/safiye-dalkiran/pizza-order-app",
@@ -187,7 +192,7 @@ const data = {
             },
             {
                 id: 3,
-                img: "/src/assets/eCommerceSite.png",
+                img:  proje3 ,
                 name: "Online Store",
                 description: "An e-commerce platform where users can browse products, view details, and make purchases. It includes categories like men’s and women’s clothing, jewelry, and electronics, with clear images and descriptions. The project focuses on responsive design, smooth navigation, and a seamless user experience across devices.",
                 link: "https://github.com/safiye-dalkiran/e-commerce-site",
