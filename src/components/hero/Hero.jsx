@@ -32,7 +32,7 @@ export default function Hero() {
   <img
     src={content.heroSection.profileImage}
     alt="Profile"
-    className="rounded-full w-60 sm:w-72 md:w-75 h-auto"
+    className="rounded-full md:rounded-xl w-60 sm:w-72 md:w-75 h-auto"
   />
 </div>
 
