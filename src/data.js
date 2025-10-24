@@ -122,7 +122,7 @@ const data = {
             text1: "Creative Problem-Solving Developer",
             description:
                 "Hi! I'm Safiye. I love combining code and design to create memorable and smooth user experiences. I work to make the web not just seen, but felt; attention to detail and experience-focused approach is my priority in every project.",
-            profileImage: "/src/assets/profilePhoto.jpg",
+            profileImage: profile,
             socials: [
 
                 {
